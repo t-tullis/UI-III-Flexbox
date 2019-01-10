@@ -304,7 +304,7 @@ justify-content: space-between;
   flex-flow: column wrap;
 }
 
-ul{
+.facts ul{
   list-style-type: square;
   line-height: 2;
   margin-left: 4%;
@@ -322,7 +322,7 @@ ul{
 
 /*media queries*/
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-device-width: 375px) {
 .services-page{
   margin: 0 6%;
 }
@@ -347,16 +347,6 @@ main {
 
 .services-info-img{
   max-width: 100%;
-}
-
-.facts {
-  display: flex;
-  max-width: 100%;
-  flex-flow: column wrap;
-}
-
-ul{
-  line-height: 1;
 }
 
 }
